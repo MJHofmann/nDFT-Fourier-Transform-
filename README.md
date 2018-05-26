@@ -26,16 +26,7 @@ The program calculates the Discrete Fourier Transform of nonuniformly spaced dat
 Discrete Cosine Transform (nDCT) and the Nonuniform Discrete Sine Transform (nDST). The code is intentionally kept short and simple. 
 The only thing needed is a 2-column ASCII file separated by “tab” with the first column containing the x-values t_i and the 
 second one the y-values f(t_i ). Remove headers and special symbols (NaN etc.) and copies of data points 
-(especially two consecutive t_i with the same value), to avoid division-by-zero. Here is an example:
-
-0.00010375284158180127	0.9999055897634689
-0.00010423174293933036	0.9999051540081028
-0.00010471285480508996	0.9999047162415895
-0.00010519618738232224	0.9999042764546475
-0.00010568175092136585	0.9999038346379535
-…and so on…
-
-
+(especially two consecutive t_i with the same value), to avoid division-by-zero. 
 
 From the Python, side numpy is required. tkinter can be used to Browse through the file system and specify an input file. 
 Alternatively, the input file can be specified directly in the script, by uncommenting and changing the line 
@@ -51,11 +42,10 @@ Using two nested for-loops for computation is unfavorable but computation can be
 (not implemented in this version). In future work, C code will be implemented to accelerate computation.
 
 
-VI. 	References
+	References
 [1]	Filon, L. N. Proc. Roy. Soc. Edinburgh 1928, 49, 38-47. 
 [2]	Blochowicz, T.  Ph.D. thesis, University of Bayreuth, Germany, 2003.
 [3]	Rivera, A.; Blochowicz, T.; Gainaru, C.; Rössler, E. A. J. Appl. Phys. 2004, 96, 5607.
 
-Comments are appreciated,
-Thank you!
+Comments are appreciated!
 
