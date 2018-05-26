@@ -8,7 +8,8 @@ PLEASE CHECK OUT THE PDF FILE FOR THEORY AND EXAMPLES
 	Introduction
 In science the problem of calculating Fourier transforms of experimental data numerically, is very common. The cosine and the sine transformation are two such variations:
 
-g_C (ω)=∫f(t)cos(ωt)dt                          g_S (ω)=∫f(t)sin(ωt)dt
+g_C (ω)=∫f(t)cos(ωt)dt              
+g_S (ω)=∫f(t)sin(ωt)dt
 
 Here, f(t) could be a time signal, for instance, and  g_(C,S) (w) the corresponding frequency-domain spectra. 
 The physicists definition of angular frequency ω=2πν is chosen. Conventional Discrete Fourier transform (DFT) algorithms 
